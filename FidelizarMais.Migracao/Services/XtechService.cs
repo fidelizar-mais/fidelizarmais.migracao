@@ -19,9 +19,18 @@ namespace FidelizarMais.Migracao.Services
             int page = 1;
             do
             {
-                List<PedidoXtechViewModel> peidido = BuscarPedido<List<PedidoXtechViewModel>>(chaveAPIXtech, subdominioAPIXtech, page);
-                peididos.AddRange(peidido);
-                fim = peidido.Any();
+                try
+                {
+                    List<PedidoXtechViewModel> peidido = BuscarPedido<List<PedidoXtechViewModel>>(chaveAPIXtech, subdominioAPIXtech, page);
+                    peididos.AddRange(peidido);
+                    fim = peidido.Any();
+                }
+                catch (Exception exception)
+                {
+                    Console.WriteLine(exception.Message);
+                    fim = false;
+                }
+
                 page++;
             } while (fim);
 
@@ -35,9 +44,18 @@ namespace FidelizarMais.Migracao.Services
             int page = 1;
             do
             {
-                List<ClienteXtechViewModel> cliente = BuscarCliente<List<ClienteXtechViewModel>>(chaveAPIXtech, subdominioAPIXtech, page);
-                clientes.AddRange(cliente);
-                fim = cliente.Any();
+                try
+                {
+                    List<ClienteXtechViewModel> cliente = BuscarCliente<List<ClienteXtechViewModel>>(chaveAPIXtech, subdominioAPIXtech, page);
+                    clientes.AddRange(cliente);
+                    fim = cliente.Any();
+                }
+                catch (Exception exception)
+                {
+                    Console.WriteLine(exception.Message);
+                    fim = false;
+                }
+
                 page++;
             } while (fim);
 

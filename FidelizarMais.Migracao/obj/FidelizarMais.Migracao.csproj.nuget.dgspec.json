@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\work-guit\\fidelizarmais.migracao\\src\\FidelizarMais.Migracao\\FidelizarMais.Migracao\\FidelizarMais.Migracao.csproj": {}
+    "C:\\work-git\\fidelizarmais.migracao\\FidelizarMais.Migracao\\FidelizarMais.Migracao.csproj": {}
   },
   "projects": {
-    "D:\\work-guit\\fidelizarmais.migracao\\src\\FidelizarMais.Migracao\\FidelizarMais.Migracao\\FidelizarMais.Migracao.csproj": {
+    "C:\\work-git\\fidelizarmais.migracao\\FidelizarMais.Migracao\\FidelizarMais.Migracao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\work-guit\\fidelizarmais.migracao\\src\\FidelizarMais.Migracao\\FidelizarMais.Migracao\\FidelizarMais.Migracao.csproj",
+        "projectUniqueName": "C:\\work-git\\fidelizarmais.migracao\\FidelizarMais.Migracao\\FidelizarMais.Migracao.csproj",
         "projectName": "FidelizarMais.Migracao",
-        "projectPath": "D:\\work-guit\\fidelizarmais.migracao\\src\\FidelizarMais.Migracao\\FidelizarMais.Migracao\\FidelizarMais.Migracao.csproj",
-        "packagesPath": "C:\\Users\\supor\\.nuget\\packages\\",
-        "outputPath": "D:\\work-guit\\fidelizarmais.migracao\\src\\FidelizarMais.Migracao\\FidelizarMais.Migracao\\obj\\",
+        "projectPath": "C:\\work-git\\fidelizarmais.migracao\\FidelizarMais.Migracao\\FidelizarMais.Migracao.csproj",
+        "packagesPath": "C:\\Users\\fidelizarmaisjob\\.nuget\\packages\\",
+        "outputPath": "C:\\work-git\\fidelizarmais.migracao\\FidelizarMais.Migracao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\supor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\fidelizarmaisjob\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FidelizarMais.Packages.Common": {
               "target": "Package",
@@ -71,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
