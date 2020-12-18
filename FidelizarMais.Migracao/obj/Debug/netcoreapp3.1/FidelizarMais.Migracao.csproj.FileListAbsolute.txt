@@ -124,7 +124,6 @@ C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\bin\Debug\netcoreapp3.
 C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\bin\Debug\netcoreapp3.1\System.Data.OleDb.dll
 C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\bin\Debug\netcoreapp3.1\Yahoo.Yui.Compressor.dll
 C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
-C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.csprojAssemblyReference.cache
 C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.Migracao.resources
 C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.csproj.GenerateResource.cache
 C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.AssemblyInfoInputs.cache
@@ -134,3 +133,4 @@ C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.
 C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.dll
 C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.pdb
 C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.genruntimeconfig.cache
+C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.Properties.Resources.resources
