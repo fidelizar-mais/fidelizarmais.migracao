@@ -29,6 +29,7 @@ namespace FidelizarMais.Migracao
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Migracao));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cbParceiro = new System.Windows.Forms.ComboBox();
@@ -46,10 +47,12 @@ namespace FidelizarMais.Migracao
             this.btnBuscarCliente = new System.Windows.Forms.Button();
             this.dgResultado = new System.Windows.Forms.DataGridView();
             this.label6 = new System.Windows.Forms.Label();
+            this.imgLoading = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgResultado)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLoading)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -237,11 +240,23 @@ namespace FidelizarMais.Migracao
             this.label6.TabIndex = 19;
             this.label6.Text = "Resultado";
             // 
+            // imgLoading
+            // 
+            this.imgLoading.Image = ((System.Drawing.Image)(resources.GetObject("imgLoading.Image")));
+            this.imgLoading.Location = new System.Drawing.Point(245, 270);
+            this.imgLoading.Name = "imgLoading";
+            this.imgLoading.Size = new System.Drawing.Size(292, 247);
+            this.imgLoading.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imgLoading.TabIndex = 18;
+            this.imgLoading.TabStop = false;
+            this.imgLoading.Visible = false;
+            // 
             // Migracao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(860, 955);
+            this.Controls.Add(this.imgLoading);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.dgResultado);
             this.Controls.Add(this.btnBuscarCliente);
@@ -261,6 +276,7 @@ namespace FidelizarMais.Migracao
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgResultado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgLoading)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -285,5 +301,6 @@ namespace FidelizarMais.Migracao
         private System.Windows.Forms.Button btnBuscarCliente;
         private System.Windows.Forms.DataGridView dgResultado;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.PictureBox imgLoading;
     }
 }

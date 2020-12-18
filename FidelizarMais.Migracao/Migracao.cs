@@ -46,6 +46,7 @@ namespace FidelizarMais.Migracao
 
         private void btnMigrar_Click(object sender, EventArgs e)
         {
+            imgLoading.Visible = true;
             btnMigrar.Enabled = false;
 
             foreach (var item in clienteModels)
@@ -60,11 +61,14 @@ namespace FidelizarMais.Migracao
                 }
             }
 
+            imgLoading.Visible = false;
             MessageBox.Show("Migração concluida com sucesso!");
         }
 
         private void btnBuscarCliente_Click(object sender, EventArgs e)
         {
+            imgLoading.Visible = true;
+
             filtroModel = new FiltroModel
             {
                 ChaveAPILI = txtChaveAPILI.Text,
@@ -85,7 +89,7 @@ namespace FidelizarMais.Migracao
             foreach (var item in clienteXtechViewModels)
             {
                 ClienteModel cliente = _clienteService.Adicionar(item, pedidoXtechViewModels);
-                if (cliente== null)
+                if (cliente == null)
                 {
                     continue;
                 }
@@ -96,6 +100,7 @@ namespace FidelizarMais.Migracao
             dgResultado.Refresh();
             btnBuscarCliente.Text = "Buscar";
             btnMigrar.Enabled = true;
+            imgLoading.Visible = false;
 
             MessageBox.Show("Clientes exportados com sucesso, clique em 'Concluir Migração' para finalizar o processo.");
         }
