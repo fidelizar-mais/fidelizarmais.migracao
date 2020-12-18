@@ -98,10 +98,6 @@ namespace FidelizarMais.Migracao.Services
             if (string.IsNullOrWhiteSpace(clienteModel.telefone_celular))
                 return clienteModel;
 
-            if (pedido.ShipZip == "23095450")
-            {
-
-            }
             if (!string.IsNullOrWhiteSpace(pedido.ShipAddress1) && !string.IsNullOrWhiteSpace(pedido.ShipDistrict) &&
                 !string.IsNullOrWhiteSpace(pedido.ShipCity) && !string.IsNullOrWhiteSpace(pedido.ShipZone) &&
                 !string.IsNullOrWhiteSpace(pedido.ShipZip))

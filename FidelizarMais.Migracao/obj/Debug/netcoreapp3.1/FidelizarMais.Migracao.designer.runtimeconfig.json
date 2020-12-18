@@ -6,8 +6,8 @@
       "version": "3.1.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\supor\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\supor\\.nuget\\packages"
+      "C:\\Users\\fidelizarmaisjob\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\fidelizarmaisjob\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

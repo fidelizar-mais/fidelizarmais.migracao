@@ -203,3 +203,4 @@ D:\work-guit\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3
 D:\work-guit\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.dll
 D:\work-guit\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.pdb
 D:\work-guit\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.genruntimeconfig.cache
+C:\work-git\fidelizarmais.migracao\FidelizarMais.Migracao\obj\Debug\netcoreapp3.1\FidelizarMais.Migracao.csprojAssemblyReference.cache
