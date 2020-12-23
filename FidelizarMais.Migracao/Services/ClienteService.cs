@@ -96,7 +96,7 @@ namespace FidelizarMais.Migracao.Services
             };
 
             if (string.IsNullOrWhiteSpace(clienteModel.telefone_celular))
-                return clienteModel;
+                return null;
 
             if (!string.IsNullOrWhiteSpace(pedido.ShipAddress1) && !string.IsNullOrWhiteSpace(pedido.ShipDistrict) &&
                 !string.IsNullOrWhiteSpace(pedido.ShipCity) && !string.IsNullOrWhiteSpace(pedido.ShipZone) &&
@@ -122,7 +122,7 @@ namespace FidelizarMais.Migracao.Services
             {
                 semEndereco++;
                 Console.WriteLine(count + " Sem endereço");
-                return clienteModel;
+                return null;
             }
 
             Console.WriteLine(clienteModel.nome + " - " + pedido.ShipAddress1 + ", " + pedido.ShipAddress2 + ", " + pedido.ShipDistrict + " - " + pedido.ShipCity + " - " + pedido.ShipZone + " - " + pedido.ShipZip);
